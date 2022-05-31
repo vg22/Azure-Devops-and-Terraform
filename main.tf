@@ -2,7 +2,7 @@ provider "azurerm" {
     version = "2.5.0"
     features {}
 }
-
+ 
 terraform {
     backend "azurerm" {
         resource_group_name  = "tf_rg_blobstore"
